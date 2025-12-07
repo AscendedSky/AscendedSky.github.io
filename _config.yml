@@ -7,20 +7,19 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Mayukh Ghosh's Portfolio # This is what shows up in the tab of the browser
 
 
 
-# Hero Section
-name: John Doe
-headline: headline message
+# Intro Section
+name: Mayukh Ghosh
+headline: Y2 Electrical Engineering Undergraduate at NUS
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hey, I am currently a Year 2 international student studying Electrical Engineering at NUS. I have a keen interest in mathematics and its ubiquitous applications in engineering and technology. My primary areas of interest are control systems and signal analysis, although I also enjoy exploring other domains such as power systems and embedded systems. 
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+#profile_image: ./assets/images/profile-image/avatar.jpeg
 
 
 # Link your resume
@@ -30,17 +29,17 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 
 # Set up external links - this will show up as small icons next to your name.
 
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
+external-links:    
+  linkedin: https://www.linkedin.com/in/mayukh-ghosh-/
+  github: https://github.com/AscendedSky
+  #stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  #medium:            # https://medium.com/@{your url slug} 
+  #x-twitter:   # https://x.com/{your url slug} 
+  ##threads:            # https://threads.net/@{your url slug} 
+  #instragram:       # https://instagram.com/{your url slug} 
+  #youtube:           # https://youtube.com/@{your url slug} 
+  #discord:            # https://discord.com/users/{your url slug} 
+  #bluesky:           # https://bsky.app/profile/{your url slug} 
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
@@ -88,18 +87,18 @@ skills:
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+#formspree-key:   https://formspree.io/f/{8-digit key}
 
 
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
+colors:
+  text: "#e5e5e5"            # light gray text
+  border: "#2a2a2a"          # dark gray borders
+  link: "#5b8cff"            # soft blue links
+  highlight: "#3d6dff"       # stronger blue for hover/active
+  background: "#0d0d0d"      # near-black background
+  light_background: "#1a1a1a" # slightly lighter sections
 
 # A few examples. 
 basic theme:
