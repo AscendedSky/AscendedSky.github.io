@@ -44,7 +44,8 @@ external-links:
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  tools:
+  - category: Software Tools
+    tools:
     - Altium Designer
     - Fusion 360
     - LTSPICE
@@ -55,10 +56,9 @@ skills:
     - Docker
     - VS Code
     - STM32CubeIDE / PlatformIO
-    - Make / CMake
     - Oscilloscope
-
-  languages:
+  - category: Languages
+    tools:
     - Python
     - C++
     - C
@@ -67,25 +67,26 @@ skills:
     - Assembly 
     - Verilog 
 
-  frameworks_libraries:
-    ROS2:
+  - category: Frameworks
+    tools:
+    - ROS2
     - MicroROS
     - Open-RMF
     - Navigation 2
     - MoveIt 2
     - Gazebo
     - Turtlebot 3
-    python:
-      - NumPy
-      - Pandas
-      - Matplotlib
-      - SciPy
-      - PyTorch
-      - OpenCV
-      - Scikit-Learn
-      - Flask
-      - FastAPI
-  hardware:
+    - NumPy
+    - Pandas
+    - Matplotlib
+    - SciPy
+    - PyTorch
+    - OpenCV
+    - Scikit-Learn
+    - Flask
+    - FastAPI
+  - category: Hardware
+    tools:
     - PCB design & layout
     - Soldering
     - Microcontroller programming (ARM Cortex-M)
