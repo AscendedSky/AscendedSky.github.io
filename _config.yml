@@ -68,8 +68,13 @@ skills:
     - Verilog 
 
   frameworks_libraries:
-    - ROS2
+    ROS2:
     - MicroROS
+    - Open-RMF
+    - Navigation 2
+    - MoveIt 2
+    - Gazebo
+    - Turtlebot 3
     python:
       - NumPy
       - Pandas
