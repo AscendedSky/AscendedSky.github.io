@@ -15,16 +15,16 @@ title: Mayukh Ghosh's Portfolio # This is what shows up in the tab of the browse
 name: Mayukh Ghosh
 headline: Y2 Electrical Engineering Undergraduate at NUS
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hey, I am currently a Year 2 international student studying Electrical Engineering at NUS. I have a keen interest in mathematics and its ubiquitous applications in engineering and technology. My primary areas of interest are control systems and signal analysis, although I also enjoy exploring other domains such as power systems and embedded systems. 
+  Hello, I am currently a Year 2 international student studying Electrical Engineering at NUS. I have a keen interest in mathematics and its ubiquitous applications in engineering and technology. My primary areas of interest are control systems and signal analysis, although I also enjoy exploring other domains such as power systems and embedded systems. 
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-#profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/pic_at_mt_fansipan.jpeg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+resume-url: ./assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -44,46 +44,46 @@ external-links:
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
-    tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
-    tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
-    tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
-    tools:
+  tools:
     - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Fusion 360
+    - LTSPICE
+    - MATLAB (including Simulink)
+    - GNU Octave
+    - Qiskit
+    - Git & GitHub
+    - Docker
+    - VS Code
+    - STM32CubeIDE / PlatformIO
+    - Make / CMake
+    - Oscilloscope
+
+  languages:
+    - Python
+    - C++
+    - C
+    - Java
+    - Bash
+    - Assembly 
+    - Verilog 
+
+  frameworks_libraries:
+    - ROS2
+    - MicroROS
+    python:
+      - NumPy
+      - Pandas
+      - Matplotlib
+      - SciPy
+      - PyTorch
+      - OpenCV
+      - Scikit-Learn
+      - Flask
+      - FastAPI
+  hardware:
+    - PCB design & layout
+    - Soldering
+    - Microcontroller programming (ARM Cortex-M)
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
