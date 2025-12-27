@@ -10,7 +10,7 @@ skills:
   - Frequency Response Analysis
   - SPICE Simulation
 
-main-image: "/images/real_spectrum.png"
+main-image: "/real_spectrum.png"
 ---
 ## More Details 
 
