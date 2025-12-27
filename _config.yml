@@ -30,8 +30,8 @@ resume-url: ./assets/resume/resume.pdf
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    
-  linkedin: https://www.linkedin.com/in/mayukh-ghosh-/
-  github: https://github.com/AscendedSky
+  linkedin: mayukh-ghosh-
+  github: AscendedSky
   #stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   #medium:            # https://medium.com/@{your url slug} 
   #x-twitter:   # https://x.com/{your url slug} 
