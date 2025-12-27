@@ -17,28 +17,28 @@ main-image: "/images/real_spectrum.png"
 My role in this project was to design and tune the High-Pass Filter (HPF), which was then combined with a Low-Pass Filter (LPF) through a summing amplifier to create a Band-Stop filter. Designing the HPF required selecting an op-amp that met the gain-bandwidth (GBW) constraints of the filter. The chosen op-amp was the TL084, which is not specified in the schematic below.
 
 {% include image-gallery.html images="HPF_schematic.png" height="400"%}
-<span style="font-size: 10px">Circuit Schematic – 3rd-Order Chebyshev High-Pass Filter</span>
+<span style="font-size: 14px">Circuit Schematic – 3rd-Order Chebyshev High-Pass Filter</span>
 
 An LTspice simulation of the overall Band-Stop filter was conducted, and both the frequency response and FFT spectrum were obtained using actual audio input.
 
-{% include image-gallery.html images="simulated_filter_response.png" height="400"%}
-<span style="font-size: 10px">LTspice Simulation – Frequency Response</span>
+{% include image-gallery.html images="simulated_filter_response.png" height="350"%}
+<span style="font-size: 14px">LTspice Simulation – Frequency Response</span>
 
-{% include image-gallery.html images="simulated_spectrum.png" height="400"%}
-<span style="font-size: 10px">LTspice Simulation – Spectrum</span>
+{% include image-gallery.html images="simulated_spectrum.png" height="350"%}
+<span style="font-size: 14px">LTspice Simulation – Spectrum</span>
 
 The HPF was also constructed and tested on a breadboard to verify that the hardware produced the approximate cutoff required for the designed Band-Stop filter.
 
-{% include image-gallery.html images="HPF_filter_response.png" height="400"%}
-<span style="font-size: 10px">Actual Frequency Response of HPF</span>
+{% include image-gallery.html images="HPF_filter_response.png" height="350"%}
+<span style="font-size: 14px">Actual Frequency Response of HPF</span>
 
-{% include image-gallery.html images="breadboard.jpg" height="400"%}
-<span style="font-size: 10px">Hardware Implementation – Breadboard Setup (HPF Only)</span>
+{% include image-gallery.html images="breadboard.jpg" height="350"%}
+<span style="font-size: 14px">Hardware Implementation – Breadboard Setup (HPF Only)</span>
 
 Finally, the overall Band-Stop filter was tested by combining the HPF and LPF on 2 breadboards to ensure that the target frequency and attenuation specifications were met.
 
-{% include image-gallery.html images="real_filter_response.png" height="400"%}
-<span style="font-size: 10px">Measured Frequency Response: 12 dB Attenuation at 5 kHz</span>
+{% include image-gallery.html images="real_filter_response.png" height="350"%}
+<span style="font-size: 14px">Measured Frequency Response: 12 dB Attenuation at 5 kHz</span>
 
-{% include image-gallery.html images="real_spectrum.png" height="400"%}
-<span style="font-size: 10px">Measured Spectrum: 10 dB Attenuation at 5 kHz</span>
+{% include image-gallery.html images="real_spectrum.png" height="350"%}
+<span style="font-size: 14px">Measured Spectrum: 10 dB Attenuation at 5 kHz</span>
