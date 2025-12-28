@@ -1,4 +1,5 @@
 <!-- SECTION 3: project -->
+<!--
 <section id="projects" class="project-grid-section">
     <h2>Projects</h2>
 
@@ -21,6 +22,73 @@
     </a>
 {% endfor %}
     </div>
-
-
  </section>
+-->
+<section id="projects" class="project-grid-section">
+    <h2>Projects</h2>
+
+    <div class="grid-container">
+
+        {% comment %}
+        OLD PROJECT LOOP (no featured support)
+
+        {% for item in site.projects %}
+            <a href="{{ item.url }}" class="project-link">
+                <div class="project-card">
+                    {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+                    {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+                    <img src="{{ image_path }}" alt="{{ item.title }} image">
+                    <h3 class="project-title">{{ item.title }}</h3>
+                    <div class="project-skills">
+                        {% for skill in item.skills %}
+                            <span class="skill">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                    <p class="project-description">{{ item.description }}</p>
+                    <button class="read-more">Read more →</button>
+                </div>
+            </a>
+        {% endfor %}
+        {% endcomment %}
+
+        {% assign featured = site.projects | where: "featured", true %}
+        {% assign others = site.projects | where_exp: "p", "p.featured != true" %}
+
+        {% for item in featured %}
+            <a href="{{ item.url }}" class="project-link">
+                <div class="project-card">
+                    {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+                    {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+                    <img src="{{ image_path }}" alt="{{ item.title }} image">
+                    <h3 class="project-title">{{ item.title }}</h3>
+                    <div class="project-skills">
+                        {% for skill in item.skills %}
+                            <span class="skill">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                    <p class="project-description">{{ item.description }}</p>
+                    <button class="read-more">Read more →</button>
+                </div>
+            </a>
+        {% endfor %}
+
+        {% for item in others %}
+            <a href="{{ item.url }}" class="project-link">
+                <div class="project-card">
+                    {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+                    {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+                    <img src="{{ image_path }}" alt="{{ item.title }} image">
+                    <h3 class="project-title">{{ item.title }}</h3>
+                    <div class="project-skills">
+                        {% for skill in item.skills %}
+                            <span class="skill">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                    <p class="project-description">{{ item.description }}</p>
+                    <button class="read-more">Read more →</button>
+                </div>
+            </a>
+        {% endfor %}
+
+    </div>
+</section>
