@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modulated Signal Transmission and Demodulation"
-description: "Designed and implemented a modulated signal transmission and reception pipeline, including a 4th-order Butterworth low-pass filter with a 937 Hz cutoff for demodulation, achieving accurate signal recovery with less than 2% amplitude error."
+description: "Designed and implemented a modulated signal transmission and reception pipeline, including a 4th-order Butterworth low-pass filter with a 937 Hz cutoff for demodulation, achieving accurate signal recovery with minimal noise."
 skills:
   - Signal Processing
   - Analog Filter Design
