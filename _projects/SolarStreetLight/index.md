@@ -28,7 +28,7 @@ Based on the lighting requirements, a power budget analysis was conducted to siz
 <span style="font-size: 14px">System Schematic – Solar-Powered Street Light</span>
 
 A physical prototype was then designed and constructed on stripboard, including the voltage regulation circuitry which was a boost converter and a discrete LED array representative of the final luminaire. The build process involved manual soldering, layout planning for current handling, and verification of all electrical connections.
-{% include image-gallery.html images="boostconverter.png" height="250" %}
+{% include image-gallery.html images="boostconverter.png" height="400" %}
 <span style="font-size: 14px">Prototype Schematic</span>
-{% include image-gallery.html images="Stripboard.jpg" height="250" %}
+{% include image-gallery.html images="Stripboard.jpg" height="400" %}
 <span style="font-size: 14px">Hardware Prototype</span>
