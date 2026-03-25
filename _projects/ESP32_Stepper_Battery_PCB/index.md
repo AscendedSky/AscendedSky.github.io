@@ -20,4 +20,7 @@ This project focuses on developing a PCB capable of monitoring battery parameter
 {% include image-gallery.html images="partial_schematic.png" height="650"%}
 <span style="font-size: 14px">Partially completed schematic of the ESP32C3-based PCB showing BMS IC, USB-C, and built-in RF antenna</span>
 
-The schematic is still in development, with component selection, signal routing, and integration of the stepper motor drivers ongoing. Future work will include PCB layout, testing of the RF antenna, and validation of battery monitoring functionality.
+The schematic and the layout is still in development, with component selection, signal routing, and integration of the stepper motor drivers ongoing. Future work will include PCB layout, testing of the RF antenna, and validation of battery monitoring functionality.
+
+{% include image-gallery.html images="Layout.png" height="650"%}
+<span style="font-size: 14px">Ongoing layout of the ESP32C3-based PCB</span>
